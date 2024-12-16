@@ -1,6 +1,3 @@
-[submodule "content/courses/statistics"]
-	path = content/courses/statistics
-	url = https://github.com/scuteee/statistics.git
 [submodule "themes/green-magpie"]
 	path = themes/green-magpie
 	url = https://github.com/toddzzf/green-magpie.git
