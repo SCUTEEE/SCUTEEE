@@ -1,3 +1,4 @@
 [submodule "themes/green-magpie"]
 	path = themes/green-magpie
 	url = https://github.com/toddzzf/green-magpie.git
+    branch = SCUTEEE
