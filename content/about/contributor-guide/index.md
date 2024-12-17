@@ -3,6 +3,7 @@ title: SCUTEEE 投稿指南
 date: 2024-12-05 17:37:00 +0800
 authors:
   - name: ToddZZF
+type: docs
 ---
 
 > 本文介绍 SCUTEEE 的投稿流程以及其他注意事项。

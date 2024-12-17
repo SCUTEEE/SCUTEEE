@@ -5,6 +5,7 @@ authors:
   - name: ToddZZF
 math: true
 mermaid: true
+type: docs
 ---
 
 > 优化写作流程，让写出来的文章更加美观。
@@ -314,7 +315,7 @@ tags: [标签1, 标签2]
 对于“系列”文章，需要在 `_index.md` 文件中额外写入：
 
 ```yaml
-type: series
+series: true
 ```
 
 “系列”文章通常有相似的头信息，为了节省时间，可以在 `_index.md` 中写入 `cascade` 字段，`cascade` 内的字段会应用到“系列”中的每一个文章，但会被文章内部相同的字段覆盖。

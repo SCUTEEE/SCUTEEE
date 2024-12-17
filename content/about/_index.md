@@ -1,9 +1,6 @@
 ---
 title: 关于 SCUTEEE
-sidebar: 
-    hide: true
-toc: false
-weight: 10
+layout: wide
 ---
 
 ## 💡 SCUTEEE 是什么意思？
@@ -31,7 +28,7 @@ SCUTEEE 关注的领域与 IEEE 类似，集中于电气、电子、微电子、
 - 提高学校的教学质量，提高同学们的学术水平
 - 打破信息壁垒，避免信息垄断，消除信息不对等
 
-## 🙋‍♂️🙋‍♀️ 参与 SCUTEEE
+## 🙋‍♂️🙋‍♀️ 共建 SCUTEEE
 
 欢迎大家参与 SCUTEEE 的网站建设。你可以选择多种方式参与：
 
@@ -49,7 +46,7 @@ SCUTEEE 关注的领域与 IEEE 类似，集中于电气、电子、微电子、
 
 也希望大家帮忙宣传我们网站，安利给身边的同学。
 
-## 版权声明
+## ©️ 版权声明
 
 SCUTEEE 是非盈利性、非商业性的网站，我们尊重他人的版权，如果有侵权，请联系我们（发送邮件到 scuteee艾特outlook.com，把“艾特”换成 @）
 
@@ -59,5 +56,14 @@ SCUTEEE 的内容除非有明确声明，否则需要得到作者的许可才能
 
 感谢所有参与 SCUTEEE 建设的贡献者，尤其是 SCUTEEE 的作者们：
 
-{{<thanks "writers">}}
+{{< green-magpie/image-badge-container >}}
+  {{< green-magpie/image-badge  image="https://avatars.githubusercontent.com/u/89148407" link="https://todd.scuteee.com" title="ToddZZF" >}}
+  {{< green-magpie/image-badge  image="https://avatars.githubusercontent.com/u/56731933" link="https://github.com/Liuyufanlyf" title="LYF" >}}
+{{< /green-magpie/image-badge-container >}}
 
+## 🤝 友链
+
+{{< green-magpie/image-badge-container >}}
+  {{< green-magpie/image-badge  image="https://www.gzic.online/~gitbook/image?url=https%3A%2F%2F53053730-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FxZYd2tSI0SDXfM80AoKu%252Ficon%252FDjofJ4OW8ikGy0ntMFgu%252F%25E5%25B0%258F%25E5%259C%2588logo.png%3Falt%3Dmedia%26token%3Db72ab15f-5528-44ff-9f7b-c80f838e5731&width=32&dpr=1&quality=100&sign=52aa1c44&sv=2" link="https://www.gzic.online/" title="华工手册" >}}
+  {{< green-magpie/image-badge  image="https://hoa.moe/images/logo.webp" link="https://hoa.moe/" title="HITSZ 自动化课程攻略共享计划" >}}
+{{< /green-magpie/image-badge-container >}}
