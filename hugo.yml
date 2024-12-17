@@ -15,14 +15,6 @@ timeout: 300s
 taxonomies:
   tag: tags
   category: categories
-  freshman1: freshman1
-  freshman2: freshman2
-  sophomore1: sophomore1
-  sophomore2: sophomore2
-  junior1: junior1
-  junior2: junior2
-  senior1: senior1
-  senior2: senior2
 
 outputs:
   home: [HTML]
@@ -187,3 +179,5 @@ params:
     enable: false
     type: remark
 
+  math:
+    renderer: mathjax
