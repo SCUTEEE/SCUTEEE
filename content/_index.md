@@ -3,6 +3,10 @@ title: SCUTEEE
 layout: hextra-home
 ---
 
+{{< green-magpie/pop-up-once >}}
+新版 SCUTEEE 仍在测试中，欢迎加入&反馈。<br>
+[👉点此访问旧版](https://scuteee.github.io)
+{{< /green-magpie/pop-up-once >}}
 
 {{< hextra/hero-badge link="/about/#-共建-scuteee" >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400" ></div>
@@ -17,7 +21,7 @@ layout: hextra-home
   电力电子类专业知识库
 </div>
 
-<div class="hx-mb-6">
+<div class="hx-mb-6 hx-flex hx-gap-2 hx-flex-wrap">
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-badge >}} 电子与信息 {{< /hextra/hero-badge >}}

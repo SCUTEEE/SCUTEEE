@@ -3,6 +3,13 @@ title: 关于 SCUTEEE
 layout: wide
 ---
 
+<!-- more -->
+
+{{< green-magpie/pop-up-once >}}
+新版 SCUTEEE 仍在测试中，欢迎加入&反馈。<br>
+[👉点此访问旧版](https://scuteee.github.io)
+{{< /green-magpie/pop-up-once >}}
+
 ## 💡 SCUTEEE 是什么意思？
 
 SCUTEEE 类似于 IEEE，SCUT 是华南理工大学（South China University of Technology），EEE 则是电气与电子工程师（Electrical and Electronics Engineers）。
