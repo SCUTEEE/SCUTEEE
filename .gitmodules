@@ -2,9 +2,6 @@
 	path = themes/green-magpie
 	url = https://github.com/toddzzf/green-magpie.git
     branch = SCUTEEE
-[submodule "content/courses/computer-network"]
-	path = content/courses/computer-network
-	url = https://github.com/SCUTEEE/computer-network.git
 [submodule "content/courses/signal-and-system"]
 	path = content/courses/signal-and-system
 	url = https://github.com/SCUTEEE/signal-and-system
@@ -17,9 +14,6 @@
 [submodule "content/courses/analog-integrated-circuit"]
 	path = content/courses/analog-integrated-circuit
 	url = https://github.com/SCUTEEE/analog-integrated-circuit
-[submodule "content/courses/probability-and-statistics"]
-	path = content/courses/probability-and-statistics
-	url = https://github.com/SCUTEEE/probability-and-statistics
 [submodule "content/courses/semiconductor-device"]
 	path = content/courses/semiconductor-device
 	url = https://github.com/SCUTEEE/semiconductor-device

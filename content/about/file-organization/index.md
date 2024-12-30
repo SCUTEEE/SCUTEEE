@@ -115,11 +115,12 @@ MITMath 把每一门课程作为一个仓库，相关信息均在 README 中。�
 为了将课程信息集合起来，通过网站展示，我们有两种方法：
 
 1. 方法一：利用 git 的 `submodule`，适合大量的信息（比如我的笔记）
-   - 缺点：子仓库更新，主仓库需要手动 `git submodule update --remote`（这步可以在 Cloudflare 调用 Hugo 前做，可以不 Commit 到 Github。）
+   - 缺点一：子仓库更新，主仓库需要手动 `git submodule update --remote`（这步可以在 Cloudflare 调用 Hugo 前做，可以不 Commit 到 Github。）
+   - 缺点二：不支持 edit in Github
 2. 方法二：利用 Hugo 的 `Content Adapter + transform.Unmarshal`，适合少量的信息，比如只有一页 README
-   - 构建时更新
+   - 构建时更新，优点是实时性更强，缺点是每次构建都拉取，很慢
 3. 方法三：利用 Hugo 的 Module
-   - 构建时更新
+   - 缺点：同方法一；另外还要额外下载 golang，感觉比方法一更复杂……；另外还不支持 [edit in Github](https://discourse.gohugo.io/t/get-module-source-from-page/23208)
 
 为了在课程仓库更新后，及时更新网站，需要在课程仓库设置 Workflow，用于触发 Cloudflare 重新编译部署网站。
 
@@ -135,7 +136,7 @@ MITMath 把每一门课程作为一个仓库，相关信息均在 README 中。�
 
 - `content`：文章内容
 - `themes`：主题
-- `hugo.yml`：网站设置
+- `config`：网站设置
 
 简单来说 Hugo 会读取网站设置，然后以设置的主题为模板，将文章内容渲染成网页。渲染过程是在 Cloudflare Pages 中执行的，并且部署到 Cloudflare 的服务器上。
 
@@ -181,11 +182,22 @@ MITMath 把每一门课程作为一个仓库，相关信息均在 README 中。�
 
 ### 课程
 
+每个课程都是 Github 上的一个仓库。关于仓库命名，由于 Github 仓库只支持英语，因此我们需要将中文课程名翻译成英语。最好是对中文进行直译，但如果直译太长了，可以适当缩减。在 Description 中写课程中文。
+
 每个课程仓库有两个分支：
 
-- main 分支：课程信息、课程笔记等 markdown 内容
-- resources 分支：课程资料，比如 word、ppt、pdf
+- `main` 分支：课程信息、课程笔记等 markdown 内容
+- `resources` 分支：课程资料，比如 word、ppt、pdf
 
 这两个分支创建好后，就不应该相互关联。SCUTEEE 为所有课程创建了模板：[course-template](https://github.com/SCUTEEE/course-template)，所有课程仓库都从该模板创建，创建时请确保勾选 `Include all branches`.
 
-命名方面，由于 Github 仓库只支持英语，因此我们需要将中文课程名翻译成英语。最好是对中文进行直译，但如果直译太长了，可以适当缩减。在 Description 中写课程中文。
+`resources` 分支下，已经建立了四个文件夹：
+
+- `assignments` 作业
+- `exams` 考试
+- `lab` 实验
+- `slides` PPT
+
+把文件存到对应的文件夹内就行，可以通过 github 网页端直接上传文件/文件夹。注意事项写在了各文件夹下的 `README.md` 中。
+
+`main` 分支专门用来放需要在网站展示的 `markdown` 文件。其中，根目录下有 `README.md` 和 `_index.md`，因为我们希望在 Github 仓库内也能看到课程的基本信息，所以把基本信息全写在 `README.md` 内，而 `_index.md` 只提供基本的 Front Matter（课程名、series、github链接）。关于 `main` 分支中的 markdown 笔记这方面我暂时还没确定，暂定的方案是新建各章节目录放进去，等以后贡献的人多了，再仔细想怎么做。

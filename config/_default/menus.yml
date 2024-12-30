@@ -1,0 +1,33 @@
+main:
+  - identifier: majors
+    name: 专业
+    pageRef: /majors
+    weight: 1
+  - identifier: blog
+    name: 博客
+    pageRef: /blog
+    weight: 3
+  - identifier: about
+    name: 关于
+    pageRef: /about
+    weight: 4
+  - name: Search
+    weight: 5
+    params:
+      type: search
+  - name: GitHub
+    weight: 6
+    url: "https://github.com/scuteee/scuteee"
+    params:
+      icon: github
+
+sidebar:
+  - identifier: more
+    name: More
+    params:
+      type: separator
+    weight: 1
+  - identifier: about
+    name: "About"
+    pageRef: "/about"
+    weight: 2

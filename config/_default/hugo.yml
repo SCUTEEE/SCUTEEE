@@ -1,0 +1,24 @@
+# Configuration
+baseURL: "https://scuteee.com/"
+title: "SCUTEEE"
+
+enableRobotsTXT: true
+enableGitInfo: false
+# enableEmoji: false
+hasCJKLanguage: true
+theme: green-magpie
+timeout: 300s
+
+taxonomies:
+  tag: tags
+  category: categories
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: zh-cn
+
+
+enableInlineShortcodes: true

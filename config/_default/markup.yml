@@ -1,0 +1,28 @@
+goldmark:
+  renderer:
+    unsafe: true
+  # parser:
+  #   attribute:
+  #     block: true
+  #     title: true
+  extensions:
+    extras:
+      delete:
+        enable: true
+      mark:
+        enable: true
+    passthrough:
+      delimiters:
+        block:
+        - - \[
+          - \]
+        - - $$
+          - $$
+        inline:
+        - - \(
+          - \)
+        - - $
+          - $
+      enable: true
+highlight:
+  noClasses: false
