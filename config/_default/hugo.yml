@@ -22,3 +22,6 @@ defaultContentLanguage: zh-cn
 
 
 enableInlineShortcodes: true
+
+ignoreFiles:
+  - README\.md$
