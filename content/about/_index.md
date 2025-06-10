@@ -14,7 +14,7 @@ layout: wide
 
 SCUTEEE 类似于 IEEE，SCUT 是华南理工大学（South China University of Technology），EEE 则是电气与电子工程师（Electrical and Electronics Engineers）。
 
-<!-- EEE 还可以解读成 Everyday, Everything, Everyone. 不过鉴于当前 SCUTEEE 只与专业课程有关，所以没必要这样解读。未来如果 SCUTEEE 开始整理校园日常，我们就启用这个含义吧！ -->
+EEE 还可以解读成 Everyday, Everything, Everyone. 不过鉴于当前 SCUTEEE 只与专业课程有关，所以没必要这样解读。未来如果 SCUTEEE 开始整理校园日常，我们就启用这个含义吧！
 
 > 冷知识：最初的时候，EEE 其实还有另一层含义：Excellent Electrical Engineer，卓越工程师。因为创建者是最后一届“电子科学与技术 卓越班”的。目前这个专业已经被取消。
 
@@ -26,7 +26,7 @@ SCUTEEE 可以看作是多类网站的结合：
 - 攻略类：分享课程的资源，避免挂科
 - 知识类：分享课程的笔记，以便自学
 
-SCUTEEE 关注的领域与 IEEE 类似，集中于电气、电子、微电子、计算机、自动化等领域。因为这些领域存在大量交叉，许多课程大体上是相同的，可以相互借鉴。
+SCUTEEE 关注的领域与 IEEE 类似，集中于电气、电子、微电子、计算机、自动化等领域。这些领域存在大量交叉，许多课程大体上是相同的，可以相互借鉴。
 
 ## 🎯 SCUTEEE 的的愿景
 
@@ -48,7 +48,6 @@ SCUTEEE 关注的领域与 IEEE 类似，集中于电气、电子、微电子、
 
 {{< cards >}}
     {{< card link="./contributor-guide" title="投稿指南" icon="cursor-click" >}}
-    {{< card link="./writer-guide" title="写作指南" icon="cursor-click" >}}
 {{< /cards >}}
 
 也希望大家帮忙宣传我们网站，安利给身边的同学。
