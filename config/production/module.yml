@@ -1,14 +1,16 @@
 hugoVersion:
   extended: true
-  min: "0.136.0"
-
+  min: 0.136.0
 imports:
-  - path: "github.com/scuteee/computer-network"
-    mounts:
-      - source: "."
-        target: "content/courses/computer-network"
-
-  - path: "github.com/scuteee/probability-and-statistics"
-    mounts:
-      - source: "."
-        target: "content/courses/probability-and-statistics"
+- path: github.com/scuteee/computer-network
+  mounts:
+  - source: .
+    target: content/courses/computer-network
+- path: github.com/scuteee/probability-and-statistics
+  mounts:
+  - source: .
+    target: content/courses/probability-and-statistics
+- path: github.com/scuteee/analog-integrated-circuit
+  mounts:
+  - source: .
+    target: content/courses/analog-integrated-circuit

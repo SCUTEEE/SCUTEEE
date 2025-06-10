@@ -1,4 +1,6 @@
-github.com/SCUTEEE/computer-network v0.0.0-20241217031033-da4101a042d5 h1:FYlmPAkWMQsfQXzO4XR8wDKXxFHyRxrE/QfvrxwC3a4=
-github.com/SCUTEEE/computer-network v0.0.0-20241217031033-da4101a042d5/go.mod h1:ONTr6oD02Pt9SN+lb50PZQWhSQF91Ou5n/WNqa8G3Uk=
-github.com/scuteee/probability-and-statistics v0.0.0-20241226094001-8d0b9ef040ec h1:yeZmt8IXRHQTPOMr/6UTPF0lLeUWgh7CFVkOkIo1Les=
-github.com/scuteee/probability-and-statistics v0.0.0-20241226094001-8d0b9ef040ec/go.mod h1:qkwWpZUpfNB6Ki44DBCMf///3rhCppPxgJaVqsd6+Cw=
+github.com/scuteee/analog-integrated-circuit v0.0.0-20250610135915-5754e4c46b7a h1:wqD818nXQGV6IhnjIR4fB3pwsqFq+lhF9AxCoROCkJA=
+github.com/scuteee/analog-integrated-circuit v0.0.0-20250610135915-5754e4c46b7a/go.mod h1:AqHgR1d1s5DNDv/v7uagmuvDabtP6WWYzY9jffmn0lE=
+github.com/scuteee/computer-network v0.0.0-20241217031033-da4101a042d5 h1:2jmrnRxWCJAiLQLaLQ5KqpYpddDMG8SXHzo2zGxx7eA=
+github.com/scuteee/computer-network v0.0.0-20241217031033-da4101a042d5/go.mod h1:6BCG7ZuGt23AQXLlqUdEcgWasx6K2Ch6YHQlCBLzYRM=
+github.com/scuteee/probability-and-statistics v0.0.0-20250610082617-53c1ac9bf1eb h1:EzieKYWiX4Wb1Z14QEImM7F2GK4Si2oNUmzoEF7YUtI=
+github.com/scuteee/probability-and-statistics v0.0.0-20250610082617-53c1ac9bf1eb/go.mod h1:qkwWpZUpfNB6Ki44DBCMf///3rhCppPxgJaVqsd6+Cw=

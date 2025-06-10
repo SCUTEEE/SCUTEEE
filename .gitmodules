@@ -1,19 +1,4 @@
 [submodule "themes/green-magpie"]
 	path = themes/green-magpie
 	url = https://github.com/toddzzf/green-magpie.git
-    branch = SCUTEEE
-[submodule "content/courses/signal-and-system"]
-	path = content/courses/signal-and-system
-	url = https://github.com/SCUTEEE/signal-and-system
-[submodule "content/courses/electromagnetic-fields-and-waves"]
-	path = content/courses/electromagnetic-fields-and-waves
-	url = https://github.com/SCUTEEE/electromagnetic-fields-and-waves
-[submodule "content/courses/digital-signal-process"]
-	path = content/courses/digital-signal-process
-	url = https://github.com/SCUTEEE/digital-signal-process
-[submodule "content/courses/analog-integrated-circuit"]
-	path = content/courses/analog-integrated-circuit
-	url = https://github.com/SCUTEEE/analog-integrated-circuit
-[submodule "content/courses/semiconductor-device"]
-	path = content/courses/semiconductor-device
-	url = https://github.com/SCUTEEE/semiconductor-device
+    branch = SCUTEEE-Tailwind4
