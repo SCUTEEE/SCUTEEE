@@ -14,3 +14,15 @@ imports:
   mounts:
   - source: .
     target: content/courses/analog-integrated-circuit
+- path: github.com/scuteee/signal-and-system
+  mounts:
+  - source: .
+    target: content/courses/signal-and-system
+- path: github.com/scuteee/digital-signal-process
+  mounts:
+  - source: .
+    target: content/courses/digital-signal-process
+- path: github.com/scuteee/semiconductor-device
+  mounts:
+  - source: .
+    target: content/courses/semiconductor-device

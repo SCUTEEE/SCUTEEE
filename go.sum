@@ -1,6 +1,12 @@
 github.com/scuteee/analog-integrated-circuit v0.0.0-20250610135915-5754e4c46b7a h1:wqD818nXQGV6IhnjIR4fB3pwsqFq+lhF9AxCoROCkJA=
 github.com/scuteee/analog-integrated-circuit v0.0.0-20250610135915-5754e4c46b7a/go.mod h1:AqHgR1d1s5DNDv/v7uagmuvDabtP6WWYzY9jffmn0lE=
-github.com/scuteee/computer-network v0.0.0-20241217031033-da4101a042d5 h1:2jmrnRxWCJAiLQLaLQ5KqpYpddDMG8SXHzo2zGxx7eA=
-github.com/scuteee/computer-network v0.0.0-20241217031033-da4101a042d5/go.mod h1:6BCG7ZuGt23AQXLlqUdEcgWasx6K2Ch6YHQlCBLzYRM=
+github.com/scuteee/computer-network v0.0.0-20250611031157-e158d35caaf3 h1:KttMzSTrrhudu/pVLH/gflDwCLC+cV58G0D5zBJR9cU=
+github.com/scuteee/computer-network v0.0.0-20250611031157-e158d35caaf3/go.mod h1:6BCG7ZuGt23AQXLlqUdEcgWasx6K2Ch6YHQlCBLzYRM=
+github.com/scuteee/digital-signal-process v0.0.0-20250611024106-ecdbc7175a82 h1:t2+/v3IU77Nyd2bWHZHkWq4I36dhiq0zP15J+LD2+QY=
+github.com/scuteee/digital-signal-process v0.0.0-20250611024106-ecdbc7175a82/go.mod h1:34a8Za5GOOh3HygOMvMBUFSjaMdBLBevsK4mAjLZidQ=
 github.com/scuteee/probability-and-statistics v0.0.0-20250610082617-53c1ac9bf1eb h1:EzieKYWiX4Wb1Z14QEImM7F2GK4Si2oNUmzoEF7YUtI=
 github.com/scuteee/probability-and-statistics v0.0.0-20250610082617-53c1ac9bf1eb/go.mod h1:qkwWpZUpfNB6Ki44DBCMf///3rhCppPxgJaVqsd6+Cw=
+github.com/scuteee/semiconductor-device v0.0.0-20250611035021-7ec016b010db h1:OESwNzcxtj59z5QQpEkRAyDadfAfI7I5qskmqhdyAXw=
+github.com/scuteee/semiconductor-device v0.0.0-20250611035021-7ec016b010db/go.mod h1:bJ16+5TFPX2v9ofMx6wP2ot+TOUxmGiSNnlX5VU9JPg=
+github.com/scuteee/signal-and-system v0.0.0-20250611021415-6006ed9b0e11 h1:yNoByL6yVDwgtUPyVxwTaiZ1eudY4wAAY0TkSEpsnHE=
+github.com/scuteee/signal-and-system v0.0.0-20250611021415-6006ed9b0e11/go.mod h1:Swx3oQXTHJkMca8hbspDCEkPXSKhlN37ed+R7o12c6A=
